@@ -1,0 +1,258 @@
+Content extraction from wordplus tetml files:
+
+Schwerpunkt article:
+
+to get contents list (there is one issue with schwerpunkt on p. 8!):
+
+#1 if para/word/text == \d\d and para/word/text/box/glyph@font == F3:
+#2 save as key in contents dictionary
+#3 getnext para/word/text if para/word/text/box/glyp@font == F5:
+#4 join text found and save as value
+
+
+page number:
+
+<Para>
+ <Word>
+  <Text>10</Text>
+  <Box llx="39.69" lly="435.35" urx="83.37" ury="473.75">
+   <Glyph font="F3" size="48" x="39.69" y="435.35" width="19.20">1</Glyph>
+   <Glyph font="F3" size="48" x="58.89" y="435.35" width="24.48">0</Glyph>
+  </Box>
+ </Word>
+</Para>
+
+article title and description:
+
+<Para>
+ <Word>
+  <Text>Science</Text>
+  <Box llx="62.36" lly="417.35" urx="129.20" ury="436.35">
+   <Glyph font="F5" size="19" x="62.36" y="417.35" width="11.91">S</Glyph>
+   <Glyph font="F5" size="19" x="74.37" y="417.35" width="8.91">c</Glyph>
+   <Glyph font="F5" size="19" x="83.19" y="417.35" width="5.78">i</Glyph>
+   <Glyph font="F5" size="19" x="89.06" y="417.35" width="10.13">e</Glyph>
+   <Glyph font="F5" size="19" x="99.28" y="417.35" width="10.98">n</Glyph>
+   <Glyph font="F5" size="19" x="110.36" y="417.35" width="8.91">c</Glyph>
+   <Glyph font="F5" size="19" x="119.08" y="417.35" width="10.13">e</Glyph>
+  </Box>
+ </Word>
+ <Word>
+  <Text>without</Text>
+  <Box llx="133.67" lly="417.35" urx="200.45" ury="436.35">
+   <Glyph font="F5" size="19" x="133.67" y="417.35" width="13.85">w</Glyph>
+   <Glyph font="F5" size="19" x="147.43" y="417.35" width="5.78">i</Glyph>
+   <Glyph font="F5" size="19" x="153.30" y="417.35" width="7.28">t</Glyph>
+   <Glyph font="F5" size="19" x="160.67" y="417.35" width="10.98">h</Glyph>
+   <Glyph font="F5" size="19" x="171.75" y="417.35" width="10.35">o</Glyph>
+   <Glyph font="F5" size="19" x="182.20" y="417.35" width="10.89">u</Glyph>
+   <Glyph font="F5" size="19" x="193.18" y="417.35" width="7.28">t</Glyph>
+  </Box>
+ </Word>
+ <Word>
+  <Text>borders</Text>
+  <Box llx="204.73" lly="417.35" urx="270.89" ury="436.35">
+   <Glyph font="F5" size="19" x="204.73" y="417.35" width="10.72">b</Glyph>
+   <Glyph font="F5" size="19" x="215.54" y="417.35" width="10.35">o</Glyph>
+   <Glyph font="F5" size="19" x="225.99" y="417.35" width="7.33">r</Glyph>
+   <Glyph font="F5" size="19" x="233.04" y="417.35" width="10.62">d</Glyph>
+   <Glyph font="F5" size="19" x="243.76" y="417.35" width="10.13">e</Glyph>
+   <Glyph font="F5" size="19" x="253.98" y="417.35" width="7.33">r</Glyph>
+   <Glyph font="F5" size="19" x="261.02" y="417.35" width="9.86">s</Glyph>
+  </Box>
+ </Word>
+ <Word>
+  <Text>The</Text>
+  <Box llx="39.69" lly="395.35" urx="69.78" ury="414.35">
+   <Glyph font="F3" size="19" x="39.69" y="395.35" width="10.24">T</Glyph>
+   <Glyph font="F3" size="19" x="49.89" y="395.35" width="11.11">h</Glyph>
+   <Glyph font="F3" size="19" x="60.97" y="395.35" width="8.82">e</Glyph>
+  </Box>
+ </Word>
+ <Word>
+  <Text>approval</Text>
+  <Box llx="73.62" lly="395.35" urx="143.10" ury="414.35">
+   <Glyph font="F3" size="19" x="73.62" y="395.35" width="9.02">a</Glyph>
+   <Glyph font="F3" size="19" x="82.61" y="395.35" width="10.20">p</Glyph>
+   <Glyph font="F3" size="19" x="92.77" y="395.35" width="10.20">p</Glyph>
+   <Glyph font="F3" size="19" x="102.94" y="395.35" width="7.30">r</Glyph>
+   <Glyph font="F3" size="19" x="110.19" y="395.35" width="9.41">o</Glyph>
+   <Glyph font="F3" size="19" x="119.18" y="395.35" width="9.75">v</Glyph>
+   <Glyph font="F3" size="19" x="128.70" y="395.35" width="9.03">a</Glyph>
+   <Glyph font="F3" size="19" x="137.69" y="395.35" width="5.42">l</Glyph>
+  </Box>
+
+page numbers:
+
+<Para>
+ <Word>
+  <Text>29</Text>
+  <Box llx="413.86" lly="455.35" urx="422.86" ury="465.10">
+   <Glyph font="F3" size="9.75" x="413.86" y="455.35" width="4.35">2</Glyph>
+   <Glyph font="F3" size="9.75" x="418.21" y="455.35" width="4.65">9</Glyph>
+  </Box>
+ </Word>
+</Para>
+
+article titles:
+
+<Para>
+ <Word>
+  <Text>Blood</Text>
+  <Box llx="425.20" lly="446.35" urx="449.90" ury="455.85">
+   <Glyph font="F5" size="9.5" x="425.20" y="446.35" width="5.86">B</Glyph>
+   <Glyph font="F5" size="9.5" x="431.11" y="446.35" width="2.98">l</Glyph>
+   <Glyph font="F5" size="9.5" x="434.14" y="446.35" width="5.18">o</Glyph>
+   <Glyph font="F5" size="9.5" x="439.36" y="446.35" width="5.18">o</Glyph>
+   <Glyph font="F5" size="9.5" x="444.59" y="446.35" width="5.31">d</Glyph>
+  </Box>
+ </Word>
+ <Word>
+  <Text>,</Text>
+  <Box llx="449.99" lly="446.35" urx="452.86" ury="455.85">
+   <Glyph font="F5" size="9.5" x="449.99" y="446.35" width="2.87">,</Glyph>
+  </Box>
+ </Word>
+ <Word>
+  <Text>sweat</Text>
+  <Box llx="455.09" lly="446.35" urx="480.69" ury="455.85">
+   <Glyph font="F5" size="9.5" x="455.09" y="446.35" width="4.93">s</Glyph>
+   <Glyph font="F5" size="9.5" x="460.07" y="446.35" width="6.93">w</Glyph>
+   <Glyph font="F5" size="9.5" x="467.00" y="446.35" width="5.06">e</Glyph>
+   <Glyph font="F5" size="9.5" x="472.01" y="446.35" width="5.00">a</Glyph>
+   <Glyph font="F5" size="9.5" x="477.06" y="446.35" width="3.64">t</Glyph>
+  </Box>
+ </Word>
+ <Word>
+  <Text>and</Text>
+  <Box llx="482.83" lly="446.35" urx="498.73" ury="455.85">
+   <Glyph font="F5" size="9.5" x="482.83" y="446.35" width="5.00">a</Glyph>
+   <Glyph font="F5" size="9.5" x="487.88" y="446.35" width="5.49">n</Glyph>
+   <Glyph font="F5" size="9.5" x="493.41" y="446.35" width="5.31">d</Glyph>
+  </Box>
+ </Word>
+ <Word>
+  <Text>stool</Text>
+  <Box llx="500.86" lly="446.35" urx="522.72" ury="455.85">
+   <Glyph font="F5" size="9.5" x="500.86" y="446.35" width="4.93">s</Glyph>
+   <Glyph font="F5" size="9.5" x="505.79" y="446.35" width="3.64">t</Glyph>
+   <Glyph font="F5" size="9.5" x="509.34" y="446.35" width="5.18">o</Glyph>
+   <Glyph font="F5" size="9.5" x="514.56" y="446.35" width="5.18">o</Glyph>
+   <Glyph font="F5" size="9.5" x="519.74" y="446.35" width="2.98">l</Glyph>
+  </Box>
+ </Word>
+ <Word>
+  <Text>In</Text>
+  <Box llx="413.86" lly="435.35" urx="423.23" ury="445.10">
+   <Glyph font="F3" size="9.75" x="413.86" y="435.35" width="3.63">I</Glyph>
+   <Glyph font="F3" size="9.75" x="417.49" y="435.35" width="5.74">n</Glyph>
+  </Box>
+ </Word>
+ <Word>
+  <Text>Chad</Text>
+  <Box llx="425.24" lly="435.35" urx="446.29" ury="445.10">
+   <Glyph font="F3" size="9.75" x="425.24" y="435.35" width="5.62">C</Glyph>
+   <Glyph font="F3" size="9.75" x="430.85" y="435.35" width="5.70">h</Glyph>
+   <Glyph font="F3" size="9.75" x="436.56" y="435.35" width="4.63">a</Glyph>
+   <Glyph font="F3" size="9.75" x="441.19" y="435.35" width="5.10">d</Glyph>
+  </Box>
+ </Word>
+ <Word>
+  <Text>,</Text>
+  <Box llx="446.29" lly="435.35" urx="449.03" ury="445.10">
+   <Glyph font="F3" size="9.75" x="446.29" y="435.35" width="2.74">,</Glyph>
+  </Box>
+ </Word>
+ <Word>
+  <Text>doctors</Text>
+  <Box llx="450.06" lly="435.35" urx="480.49" ury="445.10">
+   <Glyph font="F3" size="9.75" x="450.06" y="435.35" width="5.10">d</Glyph>
+   <Glyph font="F3" size="9.75" x="455.16" y="435.35" width="4.83">o</Glyph>
+   <Glyph font="F3" size="9.75" x="460.01" y="435.35" width="4.35">c</Glyph>
+   <Glyph font="F3" size="9.75" x="464.36" y="435.35" width="3.50">t</Glyph>
+   <Glyph font="F3" size="9.75" x="467.86" y="435.35" width="4.83">o</Glyph>
+   <Glyph font="F3" size="9.75" x="472.69" y="435.35" width="3.74">r</Glyph>
+   <Glyph font="F3" size="9.75" x="476.43" y="435.35" width="4.06">s</Glyph>
+  </Box>
+ </Word>
+ <Word>
+  <Text>help</Text>
+  <Box llx="482.50" lly="435.35" urx="500.74" ury="445.10">
+   <Glyph font="F3" size="9.75" x="482.50" y="435.35" width="5.70">h</Glyph>
+   <Glyph font="F3" size="9.75" x="488.20" y="435.35" width="4.52">e</Glyph>
+   <Glyph font="F3" size="9.75" x="492.73" y="435.35" width="2.78">l</Glyph>
+   <Glyph font="F3" size="9.75" x="495.50" y="435.35" width="5.24">p</Glyph>
+  </Box>
+ </Word>
+ <Word>
+  <Text>local</Text>
+  <Box llx="502.75" lly="435.35" urx="522.14" ury="445.10">
+   <Glyph font="F3" size="9.75" x="502.75" y="435.35" width="2.78">l</Glyph>
+   <Glyph font="F3" size="9.75" x="505.53" y="435.35" width="4.83">o</Glyph>
+   <Glyph font="F3" size="9.75" x="510.38" y="435.35" width="4.35">c</Glyph>
+   <Glyph font="F3" size="9.75" x="514.73" y="435.35" width="4.63">a</Glyph>
+   <Glyph font="F3" size="9.75" x="519.36" y="435.35" width="2.78">l</Glyph>
+  </Box>
+ </Word>
+ <Word>
+  <Text>nomadic</Text>
+  <Box llx="524.15" lly="435.35" urx="560.17" ury="445.10">
+   <Glyph font="F3" size="9.75" x="524.15" y="435.35" width="5.74">n</Glyph>
+   <Glyph font="F3" size="9.75" x="529.89" y="435.35" width="4.83">o</Glyph>
+   <Glyph font="F3" size="9.75" x="534.72" y="435.35" width="8.46">m</Glyph>
+   <Glyph font="F3" size="9.75" x="543.18" y="435.35" width="4.63">a</Glyph>
+   <Glyph font="F3" size="9.75" x="547.81" y="435.35" width="5.10">d</Glyph>
+   <Glyph font="F3" size="9.75" x="552.91" y="435.35" width="2.91">i</Glyph>
+   <Glyph font="F3" size="9.75" x="555.82" y="435.35" width="4.35">c</Glyph>
+  </Box>
+ </Word>
+ <Word>
+  <Text>communities</Text>
+  <Box llx="413.86" lly="425.35" urx="469.08" ury="435.10">
+   <Glyph font="F3" size="9.75" x="413.86" y="425.35" width="4.35">c</Glyph>
+   <Glyph font="F3" size="9.75" x="418.21" y="425.35" width="4.83">o</Glyph>
+   <Glyph font="F3" size="9.75" x="423.03" y="425.35" width="8.46">m</Glyph>
+   <Glyph font="F3" size="9.75" x="431.50" y="425.35" width="8.46">m</Glyph>
+   <Glyph font="F3" size="9.75" x="439.96" y="425.35" width="5.49">u</Glyph>
+   <Glyph font="F3" size="9.75" x="445.45" y="425.35" width="5.74">n</Glyph>
+   <Glyph font="F3" size="9.75" x="451.19" y="425.35" width="2.91">i</Glyph>
+   <Glyph font="F3" size="9.75" x="454.10" y="425.35" width="3.50">t</Glyph>
+   <Glyph font="F3" size="9.75" x="457.60" y="425.35" width="2.91">i</Glyph>
+   <Glyph font="F3" size="9.75" x="460.50" y="425.35" width="4.52">e</Glyph>
+   <Glyph font="F3" size="9.75" x="465.03" y="425.35" width="4.06">s</Glyph>
+  </Box>
+ </Word>
+ <Word>
+  <Text>.</Text>
+  <Box llx="469.08" lly="425.35" urx="471.65" ury="435.10">
+   <Glyph font="F3" size="9.75" x="469.08" y="425.35" width="2.56">.</Glyph>
+  </Box>
+ </Word>
+</Para>
+<Para>
+
+page numbers:
+
+<Para>
+ <Word>
+  <Text>33</Text>
+  <Box llx="413.86" lly="355.35" urx="422.26" ury="365.10">
+   <Glyph font="F3" size="9.75" x="413.86" y="355.35" width="4.20">3</Glyph>
+   <Glyph font="F3" size="9.75" x="418.06" y="355.35" width="4.20">3</Glyph>
+  </Box>
+ </Word>
+</Para>
+
+article titles:
+
+<Para>
+ <Word>
+  <Text>Pain</Text>
+  <Box llx="425.20" lly="346.35" urx="441.28" ury="354.35">
+   <Glyph font="F5" size="8" x="425.20" y="346.35" width="4.70">P</Glyph>
+   <Glyph font="F5" size="8" x="429.86" y="346.35" width="4.21">a</Glyph>
+   <Glyph font="F5" size="8" x="434.15" y="346.35" width="2.43">i</Glyph>
+   <Glyph font="F5" size="8" x="436.66" y="346.35" width="4.62">n</Glyph>
+  </Box>
+ </Word>
+ <Word>
